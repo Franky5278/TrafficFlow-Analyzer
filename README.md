@@ -15,6 +15,7 @@ Excel output:
 
 4A_Listeners: Rank, IP address, # of packets, Organisation
 
+
 2) Transport Protocol Breakdown (IP protocol field)
 
 Counts IP_protocol values (e.g., 6/TCP, 17/UDP) and maps common protocol numbers via an internal PROTO_MAP
@@ -25,6 +26,7 @@ Excel output:
 
 4B_Transport: Header value, Transport layer protocol, # of packets, % of total
 
+
 3) Top Applications / Services (by destination port)
 
 Finds the most common dst_port values (Top-N)
@@ -34,6 +36,7 @@ Maps common ports to service names using an internal PORT_MAP (HTTP/HTTPS/DNS/SS
 Excel output:
 
 4C_Applications: Destination IP port number, # of packets, Service
+
 
 4) Sampling-aware Total Traffic Estimation
 
@@ -51,6 +54,7 @@ Excel output:
 
 4D_Traffic: Total Traffic (MB, 10^6), Total Traffic (MiB, 1024^2)
 
+
 5) Top Bidirectional Communication Pairs
 
 Treats (src_IP, dst_IP) as an undirected pair by sorting the two IPs so that A→B and B→A are aggregated together
@@ -60,6 +64,8 @@ Outputs Top-N communication pairs ranked by total packet counts
 Excel output:
 
 4E_Pairs: # of packets, Host1, Host2
+
+
 
 Visual Outputs (PNG)
 
@@ -81,6 +87,8 @@ Star-shaped network graph: Sources → Top Listener
 
 Edge width encodes traffic volume
 
+
+
 Text Report Output (TXT)
 
 lab4_report.txt
@@ -91,9 +99,12 @@ Lists the generated PNG filenames
 
 Note: The report header string in the script currently contains legacy wording. You can rename it to any project-specific title by editing the corresponding write() line.
 
+
+
 Input CSV Format
 
 The script assumes the CSV has no header row and supports two layouts by checking the number of columns in the first line:
+
 
 20-column layout (default)
 
@@ -141,11 +152,14 @@ sampling_rate
 
 If 21 columns are detected, an extra trailing column named extra is added (core analysis is unaffected).
 
+
 Installation
 pip install pandas matplotlib networkx xlsxwriter
 
+
 Usage
 python lab4_analyzer.py Data_2.csv --top 5 --default-sampling 2048
+
 
 
 Arguments:
