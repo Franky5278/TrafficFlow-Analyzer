@@ -1,0 +1,13 @@
+Exercise 4E - Additional Analysis
+Top Communication Pairs (Bidirectional):
+ # of packets          Host1          Host2                             Pair
+         4201 103.37.198.100   130.14.250.7   (103.37.198.100, 130.14.250.7)
+         3628   171.67.77.19 192.122.131.36   (171.67.77.19, 192.122.131.36)
+         2417  129.99.230.54  137.132.22.74   (129.99.230.54, 137.132.22.74)
+         2370 137.131.17.212 137.132.228.42 (137.131.17.212, 137.132.228.42)
+         1794 104.146.199.27 202.21.159.246 (104.146.199.27, 202.21.159.246)
+
+Visualizations saved as:
+ - lab4_4E_bar.png
+ - lab4_4E_talker_network.png
+ - lab4_4E_listener_network.png
