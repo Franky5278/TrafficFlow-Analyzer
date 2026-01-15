@@ -1,7 +1,4 @@
 
----
-
-````md
 <div align="center">
 
 <h1>TrafficFlow-Analyzer</h1>
@@ -39,7 +36,7 @@ Exports results to <b>Excel</b>, generates <b>PNG</b> visualizations, and writes
 ### Install
 ```bash
 pip install pandas matplotlib networkx xlsxwriter
-````
+
 
 ### Run
 
