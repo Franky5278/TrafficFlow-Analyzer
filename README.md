@@ -1,10 +1,3 @@
-对，你**不需要额外安装任何“GitHub 插件”或 pip 包来让 README 变得好看**。
-README 的排版效果主要靠 **Markdown（GFM）+ 少量 HTML（可选）+ 图片/徽章**。
-你需要 pip 安装的是 **运行脚本本身的依赖**（pandas/matplotlib/networkx/xlsxwriter），不是为了 README。
-
-下面我按你给的内容，**重新做一份更像 LHM 那种“可扫读”的 README**，并且**留好图片位置**（你之后把图片放到 `assets/` 目录，改一下路径即可）。
-
----
 
 ````md
 <div align="center">
