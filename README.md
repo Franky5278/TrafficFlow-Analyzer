@@ -184,16 +184,3 @@ If 21 columns are detected, an extra trailing column named `extra` is added (cor
 
 ```
 
----
-
-### 你只需要做两步就能显示出来
-1) 在仓库根目录新建文件夹：`assets/`  
-2) 把三张图移动/复制进去，并保持文件名完全一致：  
-   - `assets/lab4_4E_bar.png`  
-   - `assets/lab4_4E_talker_network.png`  
-   - `assets/lab4_4E_listener_network.png`
-
-> 如果你不想建 `assets/`，也可以把图片放根目录，然后把 README 里的路径从 `assets/xxx.png` 改成 `xxx.png`。
-
-如果你把你 repo 里图片实际放置的位置（根目录还是 assets）告诉我，我也可以把路径给你改成最匹配你当前结构的一版。
-```
