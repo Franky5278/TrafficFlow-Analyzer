@@ -1,10 +1,3 @@
-明白，那就直接用你现有的三张图（文件名分别是）：
-
-* `lab4_4E_bar.png`
-* `lab4_4E_talker_network.png`
-* `lab4_4E_listener_network.png`
-
-你只需要把它们放到仓库里一个固定目录（推荐 `assets/`），然后 README 里引用这个路径就行。下面我给你一份**已经把占位图替换成这三张图**的“更美观版 README”（同样不需要任何插件）。
 
 ---
 
